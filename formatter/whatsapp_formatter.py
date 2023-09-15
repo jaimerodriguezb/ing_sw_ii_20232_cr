@@ -16,6 +16,7 @@ class CursiveCommand(FormatCommand):
     pass
 
 class MonospaceCommand(FormatCommand):
-    '''TODO Implement'''
-    pass
+    def execute(self):
+        return "```{}```".format(self.text)
+
 

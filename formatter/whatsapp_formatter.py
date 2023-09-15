@@ -6,15 +6,15 @@ class FormatCommand:
     def execute(self):
         raise Exception("Pls implement this method.")
     
-class BoldCommand:
+class BoldCommand(FormatCommand):
     '''TODO Implement'''
     pass
 
-class CursiveCommand:
+class CursiveCommand(FormatCommand):
     '''TODO Implement'''
     pass
 
-class MonospaceCommand:
+class MonospaceCommand(FormatCommand):
     '''TODO Implement'''
     pass
 

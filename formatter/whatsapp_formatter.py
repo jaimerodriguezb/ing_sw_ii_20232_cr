@@ -7,8 +7,9 @@ class FormatCommand:
         raise Exception("Pls implement this method.")
     
 class BoldCommand(FormatCommand):
-    '''TODO Implement'''
-    pass
+    def execute(self):
+        return "*{}*".format(self.text)
+
 
 class CursiveCommand(FormatCommand):
     '''TODO Implement'''
